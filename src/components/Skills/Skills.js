@@ -8,6 +8,7 @@ export default function Skills() {
       <div className="skills-section">
         <h2 className="skills-heading heading">Skills</h2>
         <div className="skills-container">
+          <p className="note">Note: In this list i am ommiting the basics: Html, Css, JavaScript and TypeScript.</p>
           <div className="skills-item">
             <img src={images.nodejs} alt="nodejs" className="skills-icon" />
             <p className="skill-name">NodeJS</p>

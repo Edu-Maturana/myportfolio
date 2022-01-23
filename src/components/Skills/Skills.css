@@ -4,6 +4,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 70px;
 }
 
 .skills-heading {
@@ -49,11 +50,16 @@
 }   
 
 .english-icon {
-    width: 380px;
+    width: 400px;
     margin-bottom: 10px;
 }
 
 .english-item a {
     color: #ffffff;
     margin-bottom: 10px;
+}
+
+.note {
+    width: 350px;
+    color: #ccc;
 }

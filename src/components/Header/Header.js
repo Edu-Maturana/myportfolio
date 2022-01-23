@@ -7,7 +7,6 @@ export default function Header() {
     <div className="Header">
       <img src={images.logo} alt="logo" className="logo" />
       <div className="links">
-        <a href="#">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
