@@ -4,7 +4,7 @@ import images from "../../utils";
 
 export default function Skills() {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <div className="skills-section">
         <h2 className="skills-heading heading">Skills</h2>
         <div className="skills-container">

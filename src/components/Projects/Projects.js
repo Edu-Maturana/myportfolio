@@ -4,7 +4,7 @@ import images from "../../utils";
 
 export default function Projects() {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h2 className="projects-heading heading">Projects</h2>
       <div className="projects-container">
         <div className="project-card">
@@ -38,7 +38,8 @@ export default function Projects() {
               update, and delete products.
             </p>
             <a href="/" className="project-detail">
-              See detail
+              See detail{" "}
+              <img src={images.arrow} alt="right arrow" className="arrow" />
             </a>
           </div>
         </div>
@@ -73,7 +74,8 @@ export default function Projects() {
               update, and delete products.
             </p>
             <a href="/" className="project-detail">
-              See detail
+              See detail{" "}
+              <img src={images.arrow} alt="right arrow" className="arrow" />
             </a>
           </div>
         </div>
@@ -104,7 +106,8 @@ export default function Projects() {
               update, and delete products.
             </p>
             <a href="/" className="project-detail">
-              See detail
+              See detail{" "}
+              <img src={images.arrow} alt="right arrow" className="arrow" />
             </a>
           </div>
         </div>
@@ -124,11 +127,7 @@ export default function Projects() {
                     Code
                   </a>
                   <a href="web" className="website">
-                    <img
-                      src={images.web}
-                      alt="web"
-                      className="web-icon"
-                    />
+                    <img src={images.web} alt="web" className="web-icon" />
                     Website
                   </a>
                 </div>
@@ -140,7 +139,8 @@ export default function Projects() {
                 create, update, and delete products.
               </p>
               <a href="/" className="project-detail">
-                See detail
+                See detail{" "}
+                <img src={images.arrow} alt="right arrow" className="arrow" />
               </a>
             </div>
           </div>

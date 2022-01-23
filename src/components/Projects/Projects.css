@@ -112,9 +112,16 @@
 }
 
 .project-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
   width: 100%;
   text-align: right;
   color: #86bff5;
   font-weight: 600;
-  text-decoration: none;
+}
+
+.arrow {
+  width: 20px;
 }

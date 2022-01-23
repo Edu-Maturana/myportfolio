@@ -23,6 +23,7 @@ const images = {
     network: "https://res.cloudinary.com/edu-devjs/image/upload/v1642966904/gis_globe-users_ebfxio.svg",
     postman: "https://res.cloudinary.com/edu-devjs/image/upload/v1642969374/logos_postman-icon_ktcfdh.svg",
     web: "https://res.cloudinary.com/edu-devjs/image/upload/v1642969701/mdi_web_ucx2gl.svg",
+    arrow: "https://res.cloudinary.com/edu-devjs/image/upload/v1642977722/akar-icons_arrow-right_ncf2vm.svg"
 }
 
 export default images;
