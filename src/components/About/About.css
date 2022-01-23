@@ -1,0 +1,50 @@
+.about {
+    width: 900px;
+    height: 650px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-heading {
+    width: fit-content;
+    font-size: 30px;
+}
+
+.about-text {
+    width: 100%;
+    font-size: 20px;
+    color: #ccc;
+    margin-left: 20px;
+}
+
+.about-text-heading {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-chile {
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.text {
+    margin-bottom: 40px;
+}
+
+.resume {
+    background-color: #927ae8;
+    color: #fff;
+    font-weight: 500;
+    width: fit-content;
+    font-size: 18px;
+    padding: 0.7rem 1rem;;  
+    border-radius: 2px;
+    text-decoration: none;
+}

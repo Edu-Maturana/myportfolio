@@ -1,12 +1,12 @@
 import React from "react";
 import "./Hero.css";
-import images from "../../../utils";
+import images from "../../utils";
 
 export default function Hero() {
   return (
     <div className="Hero">
       <p className="hero-text">Hi! I'm</p>
-      <h1 className="hero-heading">Eduardo Maturana</h1>
+      <h1 className="hero-heading heading">Eduardo Maturana</h1>
       <p className="hero-text"> Full Stack Developer</p>
       <div className="hero-buttons">
         <a href="#projects" className="hero-button primary">
