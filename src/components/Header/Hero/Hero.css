@@ -1,0 +1,62 @@
+.Hero {
+  width: 900px;
+  height: 650px;
+  background: url(https://res.cloudinary.com/edu-devjs/image/upload/v1642958804/Cover_me9x7w.svg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text {
+  color: #ccc;
+  font-size: 25px;
+}
+
+.hero-heading {
+  width: fit-content;
+  background: #86bff5;
+  background: -webkit-linear-gradient(to right, #86bff5 0%, #927ae8 100%);
+  background: -moz-linear-gradient(to right, #86bff5 0%, #927ae8 100%);
+  background: linear-gradient(to right, #86bff5 0%, #927ae8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: -1.5rem 0;
+  font-size: 60px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: left;
+}
+
+.hero-button {
+  background: transparent;
+  border: 1px solid #86bff5;
+  border-radius: 3px;
+  color: #86bff5;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0.8rem 1.6rem;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.primary {
+  color: #fff;
+  background: #927ae8;
+  border: none;
+}
+
+.hero-icons {
+  margin: 2rem 0;
+}
+
+.hero-icon {
+  width: 30px;
+  margin-right: 15px;
+}
+
+.invert {
+  filter: invert(1);
+}
