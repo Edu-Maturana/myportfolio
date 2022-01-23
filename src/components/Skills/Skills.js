@@ -4,10 +4,10 @@ import images from "../../utils";
 
 export default function Skills() {
   return (
-    <div className="skills" id="skills">
+    <div className="skills" id="skills" >
       <div className="skills-section">
-        <h2 className="skills-heading heading">Skills</h2>
-        <div className="skills-container">
+        <h2 className="skills-heading heading" data-aos="fade-up" data-aos-delay="300">Skills</h2>
+        <div className="skills-container" data-aos="fade-up" data-aos-delay="500">
           <p className="note">Note: In this list i am ommiting the basics: Html, Css, JavaScript and TypeScript.</p>
           <div className="skills-item">
             <img src={images.nodejs} alt="nodejs" className="skills-icon" />
@@ -52,8 +52,8 @@ export default function Skills() {
         </div>
       </div>
       <div className="english-section">
-        <h2 className="skills-heading heading">English certificates</h2>
-        <div className="english-container">
+        <h2 className="skills-heading heading" data-aos="fade-up" data-aos-delay="300">English certificates</h2>
+        <div className="english-container" data-aos="fade-up" data-aos-delay="500">
           <div className="english-item">
             <img src={images.englishdev} alt="dev" className="english-icon" />
             <a href="/" className="english-name">See credential</a>

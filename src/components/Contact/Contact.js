@@ -5,8 +5,8 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <div className="contact" id="contact">
-      <h2 className="contact-heading heading">Contact</h2>
-      <div className="contact-container">
+      <h2 className="contact-heading heading" data-aos="fade-up" data-aos-delay="300">Contact</h2>
+      <div className="contact-container" data-aos="fade-up" data-aos-delay="500">
         <div className="contact-card">
           <img
             src={images.linkedin}

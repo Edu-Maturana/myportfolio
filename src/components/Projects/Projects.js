@@ -5,8 +5,8 @@ import images from "../../utils";
 export default function Projects() {
   return (
     <div className="projects" id="projects">
-      <h2 className="projects-heading heading">Projects</h2>
-      <div className="projects-container">
+      <h2 className="projects-heading heading" data-aos="fade-up" data-aos-delay="300">Projects</h2>
+      <div className="projects-container" data-aos="fade-up" data-aos-delay="500">
         <div className="project-card">
           <div className="head">
             <img

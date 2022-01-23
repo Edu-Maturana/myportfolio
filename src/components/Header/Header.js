@@ -4,7 +4,7 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <div className="Header">
+    <div className="Header" data-aos="fade-up">
       <img src={images.logo} alt="logo" className="logo" />
       <div className="links">
         <a href="#about">About</a>

@@ -5,10 +5,10 @@ import images from "../../utils";
 export default function Hero() {
   return (
     <div className="Hero">
-      <p className="hero-text">Hi! I'm</p>
-      <h1 className="hero-heading heading">Eduardo Maturana</h1>
-      <p className="hero-text"> Full Stack Developer</p>
-      <div className="hero-buttons">
+      <p className="hero-text" data-aos="fade-up" data-aos-delay="100">Hi! I'm</p>
+      <h1 className="hero-heading heading" data-aos="fade-up" data-aos-delay="300">Eduardo Maturana</h1>
+      <p className="hero-text" data-aos="fade-up" data-aos-delay="500"> Full Stack Developer</p>
+      <div className="hero-buttons" data-aos="fade-up" data-aos-delay="700">
         <a href="#projects" className="hero-button primary">
           See projects
         </a>
@@ -17,7 +17,7 @@ export default function Hero() {
           Contact
         </a>
       </div>
-      <div className="hero-icons">
+      <div className="hero-icons" data-aos="fade-up" data-aos-delay="900">
         <a href="https://github.com/Edu-Maturana">
           <img className="hero-icon invert" src={images.github} alt="Github" />
         </a>
