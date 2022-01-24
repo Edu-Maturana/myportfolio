@@ -42,7 +42,7 @@
 }
 
 .project-button {
-    width: 100px;
+    width: auto;
     background-color: #fff;
     border-radius: 5px;
     color: #111;
@@ -57,6 +57,7 @@
 .project-icon {
     width: 30px;
     height: 30px;
+    margin-right: 5px;
 }
 
 @media (max-width: 910px) {
@@ -87,7 +88,7 @@
     }
 
     .project-button {
-        width: 80px;
+        width: auto;
         font-size: 16px;
     }
 
@@ -131,7 +132,7 @@
     }
 
     .project-button {
-        width: 80px;
+        width: auto;
         font-size: 16px;
     }
 

@@ -23,17 +23,23 @@ export default function Ecommerce() {
         <div className="detail-info">
           <h2 className="detail-heading heading">Ecommerce</h2>
           <p className="detail-text">
-            I have been working on ecommerce projects for the last 2 years. I
-            have worked on a variety of projects, from a simple ecommerce
-            website to a complex ecommerce platform.
+            This project is an API of an Ecommerce. It is built with TypeScript,
+            NodeJS and Express.js. For the database I used MySQL, and it is
+            hosted on Clevercloud. For the payment system I used Stripe. I did
+            the deployment in Heroku and further down you can see a Frontend
+            project with React where I use this API.
           </p>
           <div className="project-buttons">
-            <a href="github" className="project-button">
+            <a href="https://github.com/Edu-Maturana/ecommerce-nodejs" className="project-button">
               <img src={images.github} alt="github" className="project-icon" />
               Code
             </a>
-            <a href="postman" className="project-button">
-              <img src={images.postman} alt="postman" className="project-icon" />
+            <a href="https://documenter.getpostman.com/view/13824230/UVXqDsPF" className="project-button">
+              <img
+                src={images.postman}
+                alt="postman"
+                className="project-icon"
+              />
               Docs
             </a>
           </div>

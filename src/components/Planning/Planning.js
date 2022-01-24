@@ -22,16 +22,18 @@ export default function Planning() {
         <div className="detail-info">
           <h2 className="detail-heading heading">Planning Projects API</h2>
           <p className="detail-text">
-            I have been working on ecommerce projects for the last 2 years. I
-            have worked on a variety of projects, from a simple ecommerce
-            website to a complex ecommerce platform.
+            This app is similar to Jira. The purpose is to manage software
+            projects as a team, assign tasks and track progress. I used NodeJS
+            with Express.js. Project media is stored in Cloudinary. The database
+            is MySQL and it is also hosted on Clevercloud. The application is
+            deployed and you can make requests whenever you want.
           </p>
           <div className="project-buttons">
-            <a href="github" className="project-button">
+            <a href="https://github.com/Edu-Maturana/planning-project-app" className="project-button">
               <img src={images.github} alt="github" className="project-icon" />
               Code
             </a>
-            <a href="postman" className="project-button">
+            <a href="https://documenter.getpostman.com/view/13824230/UVXgLGsV" className="project-button">
               <img
                 src={images.postman}
                 alt="postman"

@@ -108,7 +108,7 @@
 .project-description {
   padding: 0 10px 10px 10px;
   font-size: 16px;
-  color: #ccc;
+  color: #fff;
 }
 
 .project-detail {
@@ -124,6 +124,12 @@
 
 .arrow {
   width: 20px;
+}
+
+.section-description {
+  font-size: 16px;
+  color: rgb(199, 199, 199);
+  margin-bottom: 20px;
 }
 
 @media (max-width: 910px) {
@@ -241,6 +247,12 @@
     font-size: 12px;
     padding: 2px;
     margin-right: 5px;
+  }
+
+  .section-description {
+    margin-left: 10px;
+    font-size: 13px;
+    width: 90%;
   }
 
   .docs-icon,

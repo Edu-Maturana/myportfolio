@@ -22,22 +22,24 @@ export default function Shop() {
         <div className="detail-info">
           <h2 className="detail-heading heading">Laptop Shop</h2>
           <p className="detail-text">
-            I have been working on ecommerce projects for the last 2 years. I
-            have worked on a variety of projects, from a simple ecommerce
-            website to a complex ecommerce platform.
+            In this project I consume the Ecommerce API that you saw a little
+            above. I used React, CSS, the Stripe client for payments, and also
+            the React Context API. The site is hosted on Netlify. You can
+            register and make a test purchase if you wish. You will find a test
+            card that Stripe provides for developers.
           </p>
           <div className="project-buttons">
-            <a href="github" className="project-button">
+            <a href="https://github.com/Edu-Maturana/ecommerce-react" className="project-button">
               <img src={images.github} alt="github" className="project-icon" />
               Code
             </a>
-            <a href="postman" className="project-button">
+            <a href="https://shop-project-edu.netlify.app/" className="project-button">
               <img
-                src={images.postman}
+                src={images.web}
                 alt="postman"
                 className="project-icon"
               />
-              Docs
+              Website
             </a>
           </div>
         </div>
