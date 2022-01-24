@@ -18,7 +18,7 @@
   width: 400px;
   margin-bottom: 20px;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
 }
 
 .head {
@@ -31,9 +31,9 @@
 }
 
 .project-icon {
-  width: 60px;
-  height: 60px;
-  margin-right: 15px;
+  width: 70px !important;
+  height: 70px !important;
+  margin-right: 15px !important;
 }
 
 .circle {
@@ -53,8 +53,8 @@
 
 .code {
   width: auto;
-  background-color: #000000;
-  color: #fff;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   padding: 5px;
   font-size: 14px;
   display: flex;
@@ -99,10 +99,6 @@
 .web-icon {
   width: 20px;
   margin-right: 5px;
-}
-
-.repo {
-  filter: invert(1);
 }
 
 .project-description {
@@ -175,7 +171,7 @@
   .website {
     width: auto;
     font-size: 12px;
-    padding: 2px;
+    padding: 5px;
     margin-right: 5px;
   }
 

@@ -30,14 +30,14 @@ export default function Social() {
           </p>
           <div className="project-buttons">
             <a href="https://github.com/Edu-Maturana/nodejs-social-api" className="project-button">
-              <img src={images.github} alt="github" className="project-icon" />
+              <img src={images.github} alt="github" className="project-resource" />
               Code
             </a>
             <a href="https://documenter.getpostman.com/view/13824230/UVJkBt3s" className="project-button">
               <img
                 src={images.postman}
                 alt="postman"
-                className="project-icon"
+                className="project-resource"
               />
               Docs
             </a>

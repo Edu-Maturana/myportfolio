@@ -30,14 +30,14 @@ export default function Planning() {
           </p>
           <div className="project-buttons">
             <a href="https://github.com/Edu-Maturana/planning-project-app" className="project-button">
-              <img src={images.github} alt="github" className="project-icon" />
+              <img src={images.github} alt="github" className="project-resource" />
               Code
             </a>
             <a href="https://documenter.getpostman.com/view/13824230/UVXgLGsV" className="project-button">
               <img
                 src={images.postman}
                 alt="postman"
-                className="project-icon"
+                className="project-resource"
               />
               Docs
             </a>

@@ -30,14 +30,14 @@ export default function Shop() {
           </p>
           <div className="project-buttons">
             <a href="https://github.com/Edu-Maturana/ecommerce-react" className="project-button">
-              <img src={images.github} alt="github" className="project-icon" />
+              <img src={images.github} alt="github" className="project-resource" />
               Code
             </a>
             <a href="https://shop-project-edu.netlify.app/" className="project-button">
               <img
                 src={images.web}
                 alt="postman"
-                className="project-icon"
+                className="project-resource"
               />
               Website
             </a>

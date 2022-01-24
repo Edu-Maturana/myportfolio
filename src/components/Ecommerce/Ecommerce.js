@@ -31,14 +31,14 @@ export default function Ecommerce() {
           </p>
           <div className="project-buttons">
             <a href="https://github.com/Edu-Maturana/ecommerce-nodejs" className="project-button">
-              <img src={images.github} alt="github" className="project-icon" />
+              <img src={images.github} alt="github" className="project-resource" />
               Code
             </a>
             <a href="https://documenter.getpostman.com/view/13824230/UVXqDsPF" className="project-button">
               <img
                 src={images.postman}
                 alt="postman"
-                className="project-icon"
+                className="project-resource"
               />
               Docs
             </a>

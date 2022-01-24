@@ -3,7 +3,7 @@ const images = {
     banner: "https://res.cloudinary.com/edu-devjs/image/upload/v1642957355/Cover_yy2k8p.svg",
     github: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
     linkedin: "https://cdn-icons-png.flaticon.com/512/61/61109.png",
-    me: "https://res.cloudinary.com/edu-devjs/image/upload/c_scale,w_452/v1642959843/IMG-0918_1_jldgbi.jpg",
+    me: "https://res.cloudinary.com/edu-devjs/image/upload/v1643051004/IMG-0918_1_jldgbi_1_ua7kev.jpg",
     chile: "https://cdn-icons-png.flaticon.com/512/299/299817.png",
     nodejs: "https://res.cloudinary.com/edu-devjs/image/upload/v1642963865/vscode-icons_file-type-node_ocmlio.svg",
     express: "https://res.cloudinary.com/edu-devjs/image/upload/v1642963863/simple-icons_express_xw69zl.svg",
