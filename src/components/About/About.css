@@ -48,3 +48,19 @@
     border-radius: 2px;
     text-decoration: none;
 }
+
+@media (max-width: 910px) {
+    .about {
+        width: 480px;
+        height: 770px;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-text {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+}

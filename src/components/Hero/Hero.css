@@ -55,3 +55,20 @@
 .invert {
   filter: invert(1);
 }
+
+@media(max-width: 910px) {
+  .Hero {
+    width: 480px;
+    height: 350px;
+    margin-top: 60px;
+  }
+
+  .hero-heading {
+    font-size: 40px;
+  }
+
+  .hero-button {
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+  }
+}

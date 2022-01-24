@@ -3,9 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.App {
     font-family: 'DM Sans', sans-serif;
 }
 
@@ -16,4 +13,18 @@
     background: linear-gradient(to right, #86bff5 0%, #927ae8 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.content {
+    width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 910px) {
+    .content {
+        width: 480px;
+    }
 }

@@ -125,3 +125,67 @@
 .arrow {
   width: 20px;
 }
+
+@media (max-width: 910px) {
+  .projects {
+    width: 480px;
+  }
+
+  .projects-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .project-card {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+
+  .head {
+    font-size: 16px;
+  }
+
+  .project-data h4 {
+    font-size: 18px;
+  }
+
+  .project-links {
+    margin-top: 5px;
+  }
+
+  .code {
+    width: auto;
+    font-size: 12px;
+    margin-right: 5px;
+  }
+
+  .docs {
+    width: auto;
+    font-size: 12px;
+    margin-right: 5px;
+  }
+
+  .website {
+    width: auto;
+    font-size: 12px;
+    padding: 2px;
+    margin-right: 5px;
+  }
+
+  .docs-icon,
+  .repo,
+  .web-icon {
+    width: 15px;
+    margin-right: 5px;
+  }
+
+  .project-description {
+    padding: 0px 10px;
+    font-size: 14px;
+  }
+
+  .project-detail {
+    font-size: 14px;
+  }
+}

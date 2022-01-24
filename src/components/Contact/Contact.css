@@ -52,3 +52,45 @@
 .discord {
     color: #927AE8;
 }
+
+@media (max-width: 910px) {
+    .contact {
+        width: 480px;
+    }
+
+    .contact-container {
+        justify-content: center;
+    }
+
+    .contact-card {
+        width: 100%;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+
+    .contact-icon {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .platform {
+        color: #ccc;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .nickname {
+        color: #fff;
+        font-size: 11px;
+    }
+
+    .linkedin {
+        color: #3b98fc;
+    }
+
+    .discord {
+        color: #927AE8;
+    }
+}
