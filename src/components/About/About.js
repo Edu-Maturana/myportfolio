@@ -28,9 +28,12 @@ export default function About() {
               Developer at Buenas Nuevas, where I have gained both technical and
               human experience. Mainly I have had to work with Vue.js and I also
               use Jira Software with Scrum methodology together with my
-              colleagues.
+              colleagues. I like self-taught learning and I have no problem
+              getting out of my comfort zone and using new technologies. In fact
+              now I've been learning Go just for fun, I think it's a great
+              language.
             </p>
-            <a href="portfolio" className="resume">
+            <a href="/em-resume.pdf" className="resume" download>
               Download resume
             </a>
           </div>
