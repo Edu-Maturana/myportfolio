@@ -28,3 +28,11 @@
         width: 480px;
     }
 }
+
+@media (max-width: 480px) {
+    .content {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

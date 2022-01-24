@@ -96,3 +96,47 @@
         height: 20px;
     }
 }
+
+@media (max-width: 480px) {
+    .detail {
+        width: 100%;
+        margin-bottom: 100%;
+    }
+
+    .video-wrapper {
+        width: 100%;
+        height: 270px;
+    }
+
+    .detail-heading, .detail-text, .project-buttons {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .left-arrow {
+        margin-left: 10px;
+    }
+
+    .detail-text {
+        font-size: 14px;
+        width: 95%;
+    }
+
+    .home {
+        font-size: 16px;
+    }
+
+    .project-buttons {
+        margin-top: 20px;
+    }
+
+    .project-button {
+        width: 80px;
+        font-size: 16px;
+    }
+
+    .project-icon {
+        width: 20px;
+        height: 20px;
+    }
+}

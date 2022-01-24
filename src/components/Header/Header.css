@@ -25,3 +25,15 @@
         width: 480px;
     }
 }
+
+@media (max-width: 480px) {
+    .Header {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+}

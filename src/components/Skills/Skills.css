@@ -104,3 +104,52 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .skills {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .skill-container {
+        margin-top: 10px;
+    }
+
+    .note {
+        width: 95% !important;
+    }
+
+    .skills-heading, .note, .skills-item {
+        margin-left: 10px;
+    }
+
+    .skills-item {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .skills-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .skill-name {
+        font-size: 16px;
+    }
+
+    .english-item {
+        width: 100%;
+    }
+
+    .english-icon {
+        width: 90%;
+    }
+
+    .english-item a {
+        margin-bottom: 5px;
+    }
+
+    .note {
+        width: 100%;
+    }
+}

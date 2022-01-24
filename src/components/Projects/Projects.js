@@ -38,10 +38,10 @@ export default function Projects() {
               This is a NodeJS based ecommerce API that allows users to create,
               update, and delete products.
             </p>
-            <Link to="/ecommerce" className="project-detail">
+            <a href="/ecommerce" className="project-detail">
               See detail
               <img src={images.arrow} alt="right arrow" className="arrow" />
-            </Link>
+            </a>
           </div>
         </div>
         <div className="project-card">
@@ -74,10 +74,10 @@ export default function Projects() {
               This is a NodeJS based ecommerce API that allows users to create,
               update, and delete products.
             </p>
-            <Link to="/planning" className="project-detail">
+            <a href="/planning" className="project-detail">
               See detail{" "}
               <img src={images.arrow} alt="right arrow" className="arrow" />
-            </Link>
+            </a>
           </div>
         </div>
         <div className="project-card">
@@ -106,10 +106,10 @@ export default function Projects() {
               This is a NodeJS based ecommerce API that allows users to create,
               update, and delete products.
             </p>
-            <Link to="/social" className="project-detail">
+            <a href="/social" className="project-detail">
               See detail{" "}
               <img src={images.arrow} alt="right arrow" className="arrow" />
-            </Link>
+            </a>
           </div>
         </div>
         <div className="project-card">
@@ -139,10 +139,10 @@ export default function Projects() {
                 This is a NodeJS based ecommerce API that allows users to
                 create, update, and delete products.
               </p>
-              <Link to="/shop" className="project-detail">
+              <a href="/shop" className="project-detail">
                 See detail{" "}
                 <img src={images.arrow} alt="right arrow" className="arrow" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
