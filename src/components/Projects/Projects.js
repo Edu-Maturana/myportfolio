@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import images from "../../utils";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   return (
@@ -37,10 +38,10 @@ export default function Projects() {
               This is a NodeJS based ecommerce API that allows users to create,
               update, and delete products.
             </p>
-            <a href="/" className="project-detail">
-              See detail{" "}
+            <Link to="/ecommerce" className="project-detail">
+              See detail
               <img src={images.arrow} alt="right arrow" className="arrow" />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="project-card">
@@ -73,10 +74,10 @@ export default function Projects() {
               This is a NodeJS based ecommerce API that allows users to create,
               update, and delete products.
             </p>
-            <a href="/" className="project-detail">
+            <Link to="/planning" className="project-detail">
               See detail{" "}
               <img src={images.arrow} alt="right arrow" className="arrow" />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="project-card">
@@ -105,10 +106,10 @@ export default function Projects() {
               This is a NodeJS based ecommerce API that allows users to create,
               update, and delete products.
             </p>
-            <a href="/" className="project-detail">
+            <Link to="/social" className="project-detail">
               See detail{" "}
               <img src={images.arrow} alt="right arrow" className="arrow" />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="project-card">
@@ -138,10 +139,10 @@ export default function Projects() {
                 This is a NodeJS based ecommerce API that allows users to
                 create, update, and delete products.
               </p>
-              <a href="/" className="project-detail">
+              <Link to="/shop" className="project-detail">
                 See detail{" "}
                 <img src={images.arrow} alt="right arrow" className="arrow" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

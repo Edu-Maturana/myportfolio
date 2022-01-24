@@ -1,0 +1,59 @@
+.detail {
+    width: 900px;
+    margin: 40px 0px 40px 0px;
+}
+
+.video-wrapper {
+    width: 900px;
+    height: 500px;
+}
+
+.detail-heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.detail-text {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #86BFF5;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.left-arrow {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.project-buttons {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.project-button {
+    width: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #111;
+    text-decoration: none;
+    font-size : 18px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.project-icon {
+    width: 30px;
+    height: 30px;
+}

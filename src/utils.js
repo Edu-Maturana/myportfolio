@@ -24,7 +24,8 @@ const images = {
     postman: "https://res.cloudinary.com/edu-devjs/image/upload/v1642969374/logos_postman-icon_ktcfdh.svg",
     web: "https://res.cloudinary.com/edu-devjs/image/upload/v1642969701/mdi_web_ucx2gl.svg",
     arrow: "https://res.cloudinary.com/edu-devjs/image/upload/v1642977722/akar-icons_arrow-right_ncf2vm.svg",
-    discord: "https://res.cloudinary.com/edu-devjs/image/upload/v1642978997/discord_fxiju7.svg"
+    discord: "https://res.cloudinary.com/edu-devjs/image/upload/v1642978997/discord_fxiju7.svg",
+    leftArrow: "https://res.cloudinary.com/edu-devjs/image/upload/v1642981535/left_gwtvr5.svg"
 }
 
 export default images;
