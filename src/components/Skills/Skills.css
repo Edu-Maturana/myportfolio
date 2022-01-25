@@ -1,0 +1,155 @@
+.skills {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.skills-heading {
+    font-size: 30px;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.skills-item {
+    background-color: #1D1E22;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 0.3rem 0.5rem;
+    border-radius: 3px;
+}
+
+.skills-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.skill-name {
+    font-size: 16px;
+    color: #fff;
+}
+
+.english-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}   
+
+.english-icon {
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.english-item a {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.note {
+    width: 350px;
+    color: #ccc;
+}
+
+@media screen and (max-width: 910px) {
+    .skills {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .skill-container {
+        margin-top: 10px;
+    }
+
+    .skills-item {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .skills-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .skill-name {
+        font-size: 16px;
+    }
+
+    .english-item {
+        width: 100%;
+    }
+
+    .english-icon {
+        width: 100%;
+    }
+
+    .english-item a {
+        margin-bottom: 5px;
+    }
+
+    .note {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skills {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .skill-container {
+        margin-top: 10px;
+    }
+
+    .note {
+        width: 95% !important;
+    }
+
+    .skills-heading, .note, .skills-item {
+        margin-left: 10px;
+    }
+
+    .skills-item {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .skills-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .skill-name {
+        font-size: 16px;
+    }
+
+    .english-item {
+        width: 100%;
+    }
+
+    .english-icon {
+        width: 90%;
+    }
+
+    .english-item a {
+        margin-bottom: 5px;
+    }
+
+    .note {
+        width: 100%;
+    }
+}

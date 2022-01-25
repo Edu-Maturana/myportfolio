@@ -1,0 +1,143 @@
+.contact {
+    width: 900px;
+    margin: 40px 0px 40px 0px;
+}
+
+.contact-heading {
+    font-size: 30px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-card {
+    display: flex;
+    width: 210px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.github {
+    filter: invert(1);
+}
+
+.platform {
+    color: #ccc;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.nickname {
+    color: #fff;
+    font-size: 16px;
+}
+
+.linkedin {
+    color: #3b98fc;
+}
+
+.discord {
+    color: #927AE8;
+}
+
+@media (max-width: 910px) {
+    .contact {
+        width: 480px;
+    }
+
+    .contact-container {
+        justify-content: center;
+    }
+
+    .contact-card {
+        width: 100%;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+
+    .contact-icon {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .platform {
+        color: #ccc;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .nickname {
+        color: #fff;
+        font-size: 11px;
+    }
+
+    .linkedin {
+        color: #3b98fc;
+    }
+
+    .discord {
+        color: #927AE8;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact {
+        width: 100%;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-card {
+        width: 200px;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        background-color: #1D1E22;
+    }
+
+    .contact-heading {
+        margin-left: 10px;
+    }
+
+    .contact-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .platform {
+        color: #ccc;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .nickname {
+        color: #fff;
+        font-size: 11px;
+    }
+
+    .linkedin {
+        color: #3b98fc;
+    }
+
+    .discord {
+        color: #927AE8;
+    }
+}
