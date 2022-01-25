@@ -14,9 +14,10 @@ export default function Planning() {
         </Link>
         <div className="video-wrapper">
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=7WTYyor6mok"
+            url="https://youtu.be/685j5cpfcyQ"
             width="100%"
             height="100%"
+            controls={true}
           />
         </div>
         <div className="detail-info">

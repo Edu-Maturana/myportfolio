@@ -33,7 +33,7 @@ export default function About() {
               now I've been learning Go just for fun, I think it's a great
               language.
             </p>
-            <a href="/em-resume.pdf" className="resume" download>
+            <a href="/files/em-resume.pdf" className="resume" download>
               Download resume
             </a>
           </div>

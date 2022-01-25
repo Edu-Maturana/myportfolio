@@ -14,9 +14,10 @@ export default function Shop() {
         </Link>
         <div className="video-wrapper">
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=7WTYyor6mok"
+            url="https://youtu.be/UCQ9cg_15K8"
             width="100%"
             height="100%"
+            controls={true}
           />
         </div>
         <div className="detail-info">

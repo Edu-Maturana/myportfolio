@@ -18,6 +18,7 @@ export default function Ecommerce() {
             url="https://youtu.be/QNq8SZa3EWk"
             width="100%"
             height="100%"
+            controls={true}
           />
         </div>
         <div className="detail-info">

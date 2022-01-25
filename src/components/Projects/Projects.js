@@ -18,8 +18,8 @@ export default function Projects() {
         data-aos="fade-up"
         data-aos-delay="500"
       >
-        Here you will find three backend applications and one frontend
-        application. The backend ones are quite complete in terms of code and
+        Here you will find three backend applications and two frontend
+        applications. The backend ones are quite complete in terms of code and
         SOLID principles, they have a good security layer using Json web tokens
         for authentication, password encryption and restriction middleware for
         requests depending on the need. All projects are deployed for you to
@@ -44,11 +44,17 @@ export default function Projects() {
             <div className="project-data">
               <h4>Ecommerce API</h4>
               <div className="project-links">
-                <a href="https://github.com/Edu-Maturana/ecommerce-nodejs" className="code">
+                <a
+                  href="https://github.com/Edu-Maturana/ecommerce-nodejs"
+                  className="code"
+                >
                   <img src={images.github} alt="github" className="repo" />
                   Code
                 </a>
-                <a href="https://documenter.getpostman.com/view/13824230/UVXqDsPF" className="docs">
+                <a
+                  href="https://documenter.getpostman.com/view/13824230/UVXqDsPF"
+                  className="docs"
+                >
                   <img
                     src={images.postman}
                     alt="postman"
@@ -83,11 +89,17 @@ export default function Projects() {
             <div className="project-data">
               <h4>Planning projects API</h4>
               <div className="project-links">
-                <a href="https://github.com/Edu-Maturana/planning-project-app" className="code">
+                <a
+                  href="https://github.com/Edu-Maturana/planning-project-app"
+                  className="code"
+                >
                   <img src={images.github} alt="github" className="repo" />
                   Code
                 </a>
-                <a href="https://documenter.getpostman.com/view/13824230/UVXgLGsV" className="docs">
+                <a
+                  href="https://documenter.getpostman.com/view/13824230/UVXgLGsV"
+                  className="docs"
+                >
                   <img
                     src={images.postman}
                     alt="postman"
@@ -119,11 +131,17 @@ export default function Projects() {
             <div className="project-data">
               <h4>Social Network API</h4>
               <div className="project-links">
-                <a href="https://github.com/Edu-Maturana/nodejs-social-api" className="code">
+                <a
+                  href="https://github.com/Edu-Maturana/nodejs-social-api"
+                  className="code"
+                >
                   <img src={images.github} alt="github" className="repo" />
                   Code
                 </a>
-                <a href="https://documenter.getpostman.com/view/13824230/UVJkBt3s" className="docs">
+                <a
+                  href="https://documenter.getpostman.com/view/13824230/UVJkBt3s"
+                  className="docs"
+                >
                   <img
                     src={images.postman}
                     alt="postman"
@@ -152,6 +170,34 @@ export default function Projects() {
           <div className="project-card-image">
             <div className="head">
               <img
+                src="/files/bntv.png"
+                alt="shop"
+                className="project-icon bntv"
+              />
+              <div className="project-data">
+                <h4>BNTV</h4>
+              </div>
+            </div>
+            <div className="project-description">
+              <p>
+                Buenas Nuevas TV is a streaming platform that belongs to a
+                church called Iglesia Ministerio Levantando a Cristo here in
+                Chile. In this project, I worked building the user interface
+                using Vue, Css and Bootsrap. Unafortunately, I can't share the
+                project because it is private, but you can see an explanatory
+                video in the detail page.
+              </p>
+              <a href="/bntv" className="project-detail">
+                Detail
+                <img src={images.arrow} alt="right arrow" className="arrow" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="project-card">
+          <div className="project-card-image">
+            <div className="head">
+              <img
                 src={images.shop}
                 alt="shop"
                 className="project-icon circle"
@@ -159,11 +205,17 @@ export default function Projects() {
               <div className="project-data">
                 <h4>Laptop Shop</h4>
                 <div className="project-links">
-                  <a href="https://github.com/Edu-Maturana/ecommerce-react" className="code">
+                  <a
+                    href="https://github.com/Edu-Maturana/ecommerce-react"
+                    className="code"
+                  >
                     <img src={images.github} alt="github" className="repo" />
                     Code
                   </a>
-                  <a href="https://shop-project-edu.netlify.app/" className="website">
+                  <a
+                    href="https://shop-project-edu.netlify.app/"
+                    className="website"
+                  >
                     <img src={images.web} alt="web" className="web-icon" />
                     Website
                   </a>

@@ -14,9 +14,10 @@ export default function Social() {
         </Link>
         <div className="video-wrapper">
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=7WTYyor6mok"
+            url="https://youtu.be/Opu_Rv2gEt4"
             width="100%"
             height="100%"
+            controls={true}
           />
         </div>
         <div className="detail-info">
