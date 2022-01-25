@@ -15,7 +15,7 @@ export default function Ecommerce() {
         </Link>
         <div className="video-wrapper">
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=7WTYyor6mok"
+            url="https://youtu.be/QNq8SZa3EWk"
             width="100%"
             height="100%"
           />
