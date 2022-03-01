@@ -237,6 +237,66 @@ export default function Projects() {
             </div>
           </div>
         </div>
+        <div className="project-card">
+          <div className="head">
+            <img src={images.menu} alt="menu" className="project-icon" />
+            <div className="project-data">
+              <h4>Digital Menu API</h4>
+              <div className="project-links">
+                <a
+                  href="https://github.com/Edu-Maturana/digital-menu-go"
+                  className="code"
+                >
+                  <img src={images.github} alt="github" className="repo" />
+                  Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="project-description">
+            <p>
+              This is a digital menu that I built for a restaurant. It is a web
+              application that uses the Google Maps API and the Google Places
+              API. It is built with Go.
+            </p>
+            <a href="/menu" className="project-detail">
+              Detail
+              <img src={images.arrow} alt="right arrow" className="arrow" />
+            </a>
+          </div>
+        </div>
+        <div className="project-card">
+          <div className="head">
+            <img
+              src={images.wallpapers}
+              alt="wallpapers"
+              className="project-icon"
+            />
+            <div className="project-data">
+              <h4>Wallpapers API</h4>
+              <div className="project-links">
+                <a
+                  href="https://github.com/Edu-Maturana/wallpapers-go-api"
+                  className="code"
+                >
+                  <img src={images.github} alt="github" className="repo" />
+                  Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="project-description">
+            <p>
+              This is a Wallpapers API that I built for a wallpaper company. It
+              is a web application that uses the Google Images API. It is built
+              with Go.
+            </p>
+            <a href="/wallpapers" className="project-detail">
+              Detail
+              <img src={images.arrow} alt="right arrow" className="arrow" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

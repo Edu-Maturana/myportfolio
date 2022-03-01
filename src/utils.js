@@ -30,6 +30,8 @@ const images = {
     postgres: "https://res.cloudinary.com/djtim7bf4/image/upload/v1646096103/Frame_2_j0m5ry.png",
     aws: "https://res.cloudinary.com/djtim7bf4/image/upload/v1646096044/Frame_2_oxig8i.png",
     jest: "https://iconape.com/wp-content/png_logo_vector/jest-logo.png",
+    menu: "https://res.cloudinary.com/djtim7bf4/image/upload/v1646169596/bxs_food-menu_zmbutn.png",
+    wallpapers: "https://res.cloudinary.com/djtim7bf4/image/upload/v1646169596/cil_wallpaper_yby8hw.png",
 }
 
 export default images;
