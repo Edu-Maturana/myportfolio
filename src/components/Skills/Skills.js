@@ -80,7 +80,7 @@ export default function Skills() {
           </div>
           <div className="skills-item">
             <img src={images.jest} alt="git" className="skills-icon" />
-            <p className="skill-name">Unit Testing with</p>
+            <p className="skill-name">Unit Testing with Jest</p>
           </div>
         </div>
       </div>
