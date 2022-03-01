@@ -47,6 +47,14 @@ export default function Skills() {
             <p className="skill-name">MySQL</p>
           </div>
           <div className="skills-item">
+            <img
+              src={images.postgres}
+              alt="postgresql"
+              className="skills-icon"
+            />
+            <p className="skill-name">PostgreSQL</p>
+          </div>
+          <div className="skills-item">
             <img src={images.mongo} alt="mongo" className="skills-icon" />
             <p className="skill-name">MongoDB</p>
           </div>
@@ -61,6 +69,14 @@ export default function Skills() {
           <div className="skills-item">
             <img src={images.git} alt="git" className="skills-icon" />
             <p className="skill-name">{`Git (and GitHub)`}</p>
+          </div>
+          <div className="skills-item">
+            <img src={images.aws} alt="git" className="skills-icon" />
+            <p className="skill-name">Amazon Web Services</p>
+          </div>
+          <div className="skills-item">
+            <img src={images.jest} alt="git" className="skills-icon" />
+            <p className="skill-name">Unit Testing with</p>
           </div>
         </div>
       </div>
