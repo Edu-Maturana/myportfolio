@@ -35,6 +35,10 @@ export default function Skills() {
             <p className="skill-name">NestJS</p>
           </div>
           <div className="skills-item">
+            <img src={images.go} alt="go" className="skills-icon" />
+            <p className="skill-name">Go</p>
+          </div>
+          <div className="skills-item">
             <img src={images.react} alt="react" className="skills-icon" />
             <p className="skill-name">React</p>
           </div>

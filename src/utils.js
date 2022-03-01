@@ -26,7 +26,7 @@ const images = {
     arrow: "https://res.cloudinary.com/edu-devjs/image/upload/v1642977722/akar-icons_arrow-right_ncf2vm.svg",
     discord: "https://res.cloudinary.com/edu-devjs/image/upload/v1642978997/discord_fxiju7.svg",
     leftArrow: "https://res.cloudinary.com/edu-devjs/image/upload/v1642981535/left_gwtvr5.svg",
-    go: "https://cacophony.org.nz/sites/default/files/gopher.png",
+    go: "https://res.cloudinary.com/djtim7bf4/image/upload/v1646096492/Frame_2_v6y7tu.png",
     postgres: "https://res.cloudinary.com/djtim7bf4/image/upload/v1646096103/Frame_2_j0m5ry.png",
     aws: "https://res.cloudinary.com/djtim7bf4/image/upload/v1646096044/Frame_2_oxig8i.png",
     jest: "https://iconape.com/wp-content/png_logo_vector/jest-logo.png",
