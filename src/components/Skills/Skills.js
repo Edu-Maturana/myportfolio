@@ -1,6 +1,5 @@
 import React from "react";
 import "./Skills.css";
-import images from "../../utils";
 
 export default function Skills() {
   return (
@@ -23,64 +22,31 @@ export default function Skills() {
             and TypeScript.
           </p>
           <div className="skills-item">
-            <img src={images.nodejs} alt="nodejs" className="skills-icon" />
-            <p className="skill-name">NodeJS</p>
+            <p className="skill-name">- Go (Gin, Fiber & Echo)</p>
           </div>
           <div className="skills-item">
-            <img src={images.express} alt="express" className="skills-icon" />
-            <p className="skill-name">Express</p>
+            <p className="skill-name">- NodeJS (Express & NestJS)</p>
           </div>
           <div className="skills-item">
-            <img src={images.nest} alt="nest" className="skills-icon" />
-            <p className="skill-name">NestJS</p>
+            <p className="skill-name">- React, Vue & Angular</p>
           </div>
           <div className="skills-item">
-            <img src={images.go} alt="go" className="skills-icon" />
-            <p className="skill-name">Go</p>
+            <p className="skill-name">- MySQL & PostgreSQL</p>
           </div>
           <div className="skills-item">
-            <img src={images.react} alt="react" className="skills-icon" />
-            <p className="skill-name">React</p>
+            <p className="skill-name">- MongoDB</p>
           </div>
           <div className="skills-item">
-            <img src={images.vue} alt="vue" className="skills-icon" />
-            <p className="skill-name">Vue</p>
+            <p className="skill-name">- Docker</p>
           </div>
           <div className="skills-item">
-            <img src={images.mysql} alt="mysql" className="skills-icon" />
-            <p className="skill-name">MySQL</p>
+            <p className="skill-name">- Linux</p>
           </div>
           <div className="skills-item">
-            <img
-              src={images.postgres}
-              alt="postgresql"
-              className="skills-icon"
-            />
-            <p className="skill-name">PostgreSQL</p>
+            <p className="skill-name">- {`Git (and GitHub)`}</p>
           </div>
           <div className="skills-item">
-            <img src={images.mongo} alt="mongo" className="skills-icon" />
-            <p className="skill-name">MongoDB</p>
-          </div>
-          <div className="skills-item">
-            <img src={images.docker} alt="docker" className="skills-icon" />
-            <p className="skill-name">Docker</p>
-          </div>
-          <div className="skills-item">
-            <img src={images.linux} alt="linux" className="skills-icon" />
-            <p className="skill-name">Linux based OS</p>
-          </div>
-          <div className="skills-item">
-            <img src={images.git} alt="git" className="skills-icon" />
-            <p className="skill-name">{`Git (and GitHub)`}</p>
-          </div>
-          <div className="skills-item">
-            <img src={images.aws} alt="git" className="skills-icon" />
-            <p className="skill-name">Amazon Web Services</p>
-          </div>
-          <div className="skills-item">
-            <img src={images.jest} alt="git" className="skills-icon" />
-            <p className="skill-name">Unit Testing</p>
+            <p className="skill-name">- Unit Testing</p>
           </div>
         </div>
       </div>
