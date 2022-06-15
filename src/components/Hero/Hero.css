@@ -1,7 +1,7 @@
 .Hero {
   width: 900px;
   height: 650px;
-  background: url(https://res.cloudinary.com/edu-devjs/image/upload/v1642958804/Cover_me9x7w.svg);
+  background: url(https://res.cloudinary.com/edu-devjs/image/upload/v1642958804/portafolio/Cover_me9x7w.svg);
   background-size: cover;
   display: flex;
   flex-direction: column;

@@ -64,7 +64,7 @@ export default function Skills() {
           data-aos-delay="500"
         >
           <div className="english-item">
-            <img src="https://res.cloudinary.com/edu-devjs/image/upload/v1647956032/a_vgo86v.png" alt="dev" className="english-icon" />
+            <img src="https://res.cloudinary.com/edu-devjs/image/upload/v1647956048/portafolio/b_v2kag8.png" alt="dev" className="english-icon" />
             <a
               href="https://platzi.com/p/edumaturanac/curso/1999-ingles-developers/diploma/detalle/"
               className="english-name"
@@ -73,7 +73,7 @@ export default function Skills() {
             </a>
           </div>
           <div className="english-item">
-            <img src="https://res.cloudinary.com/edu-devjs/image/upload/v1647956048/b_v2kag8.png" alt="dev" className="english-icon" />
+            <img src="https://res.cloudinary.com/edu-devjs/image/upload/v1647956032/portafolio/a_vgo86v.png" alt="dev" className="english-icon" />
             <a
               href="https://platzi.com/p/edumaturanac/curso/2153-ingles-avanzado-trabajo/diploma/detalle/"
               className="english-name"
